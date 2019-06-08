@@ -1,0 +1,24 @@
+{
+    "name": "putyy/kg-music",
+    "description": "Just for get kg-music",
+    "type": "library",
+    "keywords": ["putyy","kugou","music"],
+    "homepage": "https://github.com/putyy/kg-music",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "putyy",
+            "email": "10945014@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "KGMusic\\": "src/"
+        }
+    }
+}
